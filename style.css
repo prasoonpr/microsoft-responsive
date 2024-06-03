@@ -1,0 +1,233 @@
+
+.img-logo{
+    width: 105px;
+    height: 25px;
+  
+}
+.ul-nav{
+    list-style-type: none;
+}
+.a-nav{
+    
+    color: black;
+    font-size: 13px;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+li:hover{
+    border-bottom: 2px solid black;
+    
+}
+@media only screen and (min-width: 850px) {
+    .card-abs{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 420px;
+        height: 300px;
+        background-color: white;
+
+    }
+ 
+
+}
+.element-icon{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.a-element{
+    color: #0067b8;
+    font-weight: 500;
+}
+.boxes{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+@media only screen and (min-width: 851px){
+    .box-fluid{
+     display: flex;
+     justify-content: center;
+     padding-right: 60px;
+     padding-left: 40px;
+     
+    }
+    .box-container{
+        margin-left: 40px;
+        margin-bottom: 40px;
+     }
+   
+   
+}
+@media only screen and (min-width:600px){
+   
+    .box-container{
+       width: 45%;
+       float: left;
+       margin-left: 20px;
+       
+     }
+   
+}
+@media only screen and (min-width:300px){
+   
+    .box-container{
+        display: block;
+        margin-bottom: 20px;
+     }
+   
+}
+@media only screen and (min-width: 850px) {
+    .card-abs1{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 280px;
+        height: 200px;
+        background: none;
+
+    }
+ 
+
+}
+.h1-div{
+    font-size: 28px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.div-for{
+    margin-top: 110px;
+}
+.icons{
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-bottom:100px;
+    display: flex;
+  
+   
+}
+.icons-img{
+    margin-left: 20px;
+    width: 35px;
+    height: 35px;
+
+}
+
+/*           footer secssion            */
+
+.h3-footer{
+    font-size: 16px;
+    color: #616161;
+
+}
+.p-footer{
+    font-size: 12px;
+    color: #616161;
+    cursor: pointer;
+}
+.p-footer:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background: rgb(240, 239, 239);
+    padding-bottom: 15px;
+}
+
+
+@media only screen and (min-width: 300px) {
+    .footer-div{
+        display: block;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    
+    }
+    /* .footer1{
+        background: rgb(240, 239, 239);
+        padding-bottom: 40px;
+    } */
+}
+@media only screen and (min-width: 540px) {
+    .footer-div{
+       
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    
+    }
+    .footer1{
+        display: flex;
+        flex-wrap: wrap;
+       
+
+    }
+}
+@media only screen and (min-width: 865px) {
+    .footer-div{
+       
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    
+    }
+    .footer1{
+        display: flex;
+       flex-wrap: nowrap;
+       
+
+    }
+}
+
+.last1{
+    display: flex;
+    margin-right: 20px;
+    
+}
+@media only screen and (min-width: 300px){
+    .last{
+        display: block;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 20px;
+    }
+    .last2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width: 540px){
+    .last{
+        display: block;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 20px;
+    }
+    .last2{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+@media only screen and (min-width: 865px){
+    .last{
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 20px;
+    }
+    .last2{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+
+
+
+ 
+  
+
+
+
+
